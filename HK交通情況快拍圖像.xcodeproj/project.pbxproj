@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7948EBF7283A2D80006122AE /* HK----------iOS--Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7948EBF6283A2D7F006122AE /* HK----------iOS--Info.plist */; };
+		796332E7284246A8006EF360 /* SwiftWeb in Frameworks */ = {isa = PBXBuildFile; productRef = 796332E6284246A8006EF360 /* SwiftWeb */; };
+		796332E9284246A8006EF360 /* SwiftWebScript in Frameworks */ = {isa = PBXBuildFile; productRef = 796332E8284246A8006EF360 /* SwiftWebScript */; };
+		79EBD0DF28354785002DA42B /* Userdata8.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EBD0DE28354784002DA42B /* Userdata8.json */; };
+		79EE27E72830A77F005E4007 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EE27E62830A77F005E4007 /* Tests_iOS.swift */; };
+		79EE27E92830A77F005E4007 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EE27E82830A77F005E4007 /* Tests_iOSLaunchTests.swift */; };
+		79EE27F32830A77F005E4007 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EE27F22830A77F005E4007 /* Tests_macOS.swift */; };
+		79EE27F52830A77F005E4007 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EE27F42830A77F005E4007 /* Tests_macOSLaunchTests.swift */; };
+		79EE27F62830A77F005E4007 /* HKTrafficSnapshotImagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EE27CE2830A77E005E4007 /* HKTrafficSnapshotImagesApp.swift */; };
+		79EE27F82830A77F005E4007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EE27CF2830A77E005E4007 /* ContentView.swift */; };
+		79EE27FA2830A77F005E4007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EE27D02830A77F005E4007 /* Assets.xcassets */; };
+		79EE280B2830A7B0005E4007 /* Userdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EE280A2830A7B0005E4007 /* Userdata.json */; };
+		79EE28102830ACBF005E4007 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 79EE280F2830ACBF005E4007 /* URLImage */; };
+		79EE28142830C007005E4007 /* Userdata2.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EE28122830C007005E4007 /* Userdata2.json */; };
+		79EE28162830C007005E4007 /* Userdata3.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EE28132830C007005E4007 /* Userdata3.json */; };
+		79EE281B2830C064005E4007 /* Userdata5.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EE28182830C064005E4007 /* Userdata5.json */; };
+		79EE281D2830C064005E4007 /* Userdata6.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EE28192830C064005E4007 /* Userdata6.json */; };
+		79EE281F2830C064005E4007 /* Userdata4.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EE281A2830C064005E4007 /* Userdata4.json */; };
+		79EE28282830C127005E4007 /* Userdata7.json in Resources */ = {isa = PBXBuildFile; fileRef = 79EE28232830C126005E4007 /* Userdata7.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79EE27E32830A77F005E4007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79EE27C92830A77D005E4007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79EE27D42830A77F005E4007;
+			remoteInfo = "HK交通情況快拍圖像 (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7948EBF6283A2D7F006122AE /* HK----------iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HK----------iOS--Info.plist"; sourceTree = SOURCE_ROOT; };
+		79786ACD2852637A00817970 /* main.absc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = main.absc.md; sourceTree = "<group>"; };
+		79EBD0DE28354784002DA42B /* Userdata8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Userdata8.json; sourceTree = "<group>"; };
+		79EE27CE2830A77E005E4007 /* HKTrafficSnapshotImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTrafficSnapshotImagesApp.swift; sourceTree = "<group>"; };
+		79EE27CF2830A77E005E4007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79EE27D02830A77F005E4007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79EE27D52830A77F005E4007 /* HK交通情況快拍圖像.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HK交通情況快拍圖像.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EE27DD2830A77F005E4007 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		79EE27E22830A77F005E4007 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EE27E62830A77F005E4007 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		79EE27E82830A77F005E4007 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		79EE27EE2830A77F005E4007 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79EE27F22830A77F005E4007 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		79EE27F42830A77F005E4007 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		79EE280A2830A7B0005E4007 /* Userdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Userdata.json; sourceTree = "<group>"; };
+		79EE28122830C007005E4007 /* Userdata2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Userdata2.json; sourceTree = "<group>"; };
+		79EE28132830C007005E4007 /* Userdata3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Userdata3.json; sourceTree = "<group>"; };
+		79EE28182830C064005E4007 /* Userdata5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Userdata5.json; sourceTree = "<group>"; };
+		79EE28192830C064005E4007 /* Userdata6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Userdata6.json; sourceTree = "<group>"; };
+		79EE281A2830C064005E4007 /* Userdata4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Userdata4.json; sourceTree = "<group>"; };
+		79EE28232830C126005E4007 /* Userdata7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Userdata7.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79EE27D22830A77F005E4007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE28102830ACBF005E4007 /* URLImage in Frameworks */,
+				796332E7284246A8006EF360 /* SwiftWeb in Frameworks */,
+				796332E9284246A8006EF360 /* SwiftWebScript in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EE27DF2830A77F005E4007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EE27EB2830A77F005E4007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79EE27C82830A77D005E4007 = {
+			isa = PBXGroup;
+			children = (
+				79EE27CD2830A77E005E4007 /* Shared */,
+				79EE27DC2830A77F005E4007 /* macOS */,
+				79EE27E52830A77F005E4007 /* Tests iOS */,
+				79EE27F12830A77F005E4007 /* Tests macOS */,
+				79EE27D62830A77F005E4007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79EE27CD2830A77E005E4007 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7948EBF6283A2D7F006122AE /* HK----------iOS--Info.plist */,
+				79EE27CE2830A77E005E4007 /* HKTrafficSnapshotImagesApp.swift */,
+				79EE27CF2830A77E005E4007 /* ContentView.swift */,
+				79EE280A2830A7B0005E4007 /* Userdata.json */,
+				79EE28122830C007005E4007 /* Userdata2.json */,
+				79EE28132830C007005E4007 /* Userdata3.json */,
+				79EE281A2830C064005E4007 /* Userdata4.json */,
+				79EE28182830C064005E4007 /* Userdata5.json */,
+				79EE28192830C064005E4007 /* Userdata6.json */,
+				79EE28232830C126005E4007 /* Userdata7.json */,
+				79EBD0DE28354784002DA42B /* Userdata8.json */,
+				79786ACD2852637A00817970 /* main.absc.md */,
+				79EE27D02830A77F005E4007 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		79EE27D62830A77F005E4007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79EE27D52830A77F005E4007 /* HK交通情況快拍圖像.app */,
+				79EE27E22830A77F005E4007 /* Tests iOS.xctest */,
+				79EE27EE2830A77F005E4007 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79EE27DC2830A77F005E4007 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				79EE27DD2830A77F005E4007 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		79EE27E52830A77F005E4007 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79EE27E62830A77F005E4007 /* Tests_iOS.swift */,
+				79EE27E82830A77F005E4007 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		79EE27F12830A77F005E4007 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				79EE27F22830A77F005E4007 /* Tests_macOS.swift */,
+				79EE27F42830A77F005E4007 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79EE27D42830A77F005E4007 /* HK交通情況快拍圖像 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EE27FE2830A77F005E4007 /* Build configuration list for PBXNativeTarget "HK交通情況快拍圖像 (iOS)" */;
+			buildPhases = (
+				79EE27D12830A77F005E4007 /* Sources */,
+				79EE27D22830A77F005E4007 /* Frameworks */,
+				79EE27D32830A77F005E4007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HK交通情況快拍圖像 (iOS)";
+			packageProductDependencies = (
+				79EE280F2830ACBF005E4007 /* URLImage */,
+				796332E6284246A8006EF360 /* SwiftWeb */,
+				796332E8284246A8006EF360 /* SwiftWebScript */,
+			);
+			productName = "HK交通情況快拍圖像 (iOS)";
+			productReference = 79EE27D52830A77F005E4007 /* HK交通情況快拍圖像.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79EE27E12830A77F005E4007 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EE28042830A77F005E4007 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				79EE27DE2830A77F005E4007 /* Sources */,
+				79EE27DF2830A77F005E4007 /* Frameworks */,
+				79EE27E02830A77F005E4007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79EE27E42830A77F005E4007 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 79EE27E22830A77F005E4007 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		79EE27ED2830A77F005E4007 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79EE28072830A77F005E4007 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				79EE27EA2830A77F005E4007 /* Sources */,
+				79EE27EB2830A77F005E4007 /* Frameworks */,
+				79EE27EC2830A77F005E4007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 79EE27EE2830A77F005E4007 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79EE27C92830A77D005E4007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					79EE27D42830A77F005E4007 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					79EE27E12830A77F005E4007 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 79EE27D42830A77F005E4007;
+					};
+					79EE27ED2830A77F005E4007 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 79EE27DA2830A77F005E4007;
+					};
+				};
+			};
+			buildConfigurationList = 79EE27CC2830A77D005E4007 /* Build configuration list for PBXProject "HK交通情況快拍圖像" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79EE27C82830A77D005E4007;
+			packageReferences = (
+				79EE280E2830ACBF005E4007 /* XCRemoteSwiftPackageReference "url-image" */,
+				79402282283AA6AC00E13E95 /* XCRemoteSwiftPackageReference "SwiftWebUI" */,
+				796332BD28423FCC006EF360 /* XCRemoteSwiftPackageReference "SwiftWebUI" */,
+				796332E5284246A8006EF360 /* XCRemoteSwiftPackageReference "SwiftWeb" */,
+			);
+			productRefGroup = 79EE27D62830A77F005E4007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79EE27D42830A77F005E4007 /* HK交通情況快拍圖像 (iOS) */,
+				79EE27E12830A77F005E4007 /* Tests iOS */,
+				79EE27ED2830A77F005E4007 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79EE27D32830A77F005E4007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE27FA2830A77F005E4007 /* Assets.xcassets in Resources */,
+				79EBD0DF28354785002DA42B /* Userdata8.json in Resources */,
+				79EE281B2830C064005E4007 /* Userdata5.json in Resources */,
+				79EE28142830C007005E4007 /* Userdata2.json in Resources */,
+				79EE281F2830C064005E4007 /* Userdata4.json in Resources */,
+				79EE28162830C007005E4007 /* Userdata3.json in Resources */,
+				79EE28282830C127005E4007 /* Userdata7.json in Resources */,
+				7948EBF7283A2D80006122AE /* HK----------iOS--Info.plist in Resources */,
+				79EE280B2830A7B0005E4007 /* Userdata.json in Resources */,
+				79EE281D2830C064005E4007 /* Userdata6.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EE27E02830A77F005E4007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EE27EC2830A77F005E4007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79EE27D12830A77F005E4007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE27F82830A77F005E4007 /* ContentView.swift in Sources */,
+				79EE27F62830A77F005E4007 /* HKTrafficSnapshotImagesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EE27DE2830A77F005E4007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE27E92830A77F005E4007 /* Tests_iOSLaunchTests.swift in Sources */,
+				79EE27E72830A77F005E4007 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EE27EA2830A77F005E4007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EE27F52830A77F005E4007 /* Tests_macOSLaunchTests.swift in Sources */,
+				79EE27F32830A77F005E4007 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79EE27E42830A77F005E4007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79EE27D42830A77F005E4007 /* HK交通情況快拍圖像 (iOS) */;
+			targetProxy = 79EE27E32830A77F005E4007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79EE27FC2830A77F005E4007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79EE27FD2830A77F005E4007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79EE27FF2830A77F005E4007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HK----------iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HingTattsang.HKTrafficSnapshotImagesApp;
+				PRODUCT_NAME = "HK交通情況快拍圖像";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79EE28002830A77F005E4007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HK----------iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.HingTattsang.HKTrafficSnapshotImagesApp;
+				PRODUCT_NAME = "HK交通情況快拍圖像";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79EE28052830A77F005E4007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.crazyapps.hk.hk.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HK交通情況快拍圖像 (iOS)";
+			};
+			name = Debug;
+		};
+		79EE28062830A77F005E4007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.crazyapps.hk.hk.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HK交通情況快拍圖像 (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79EE28082830A77F005E4007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.crazyapps.hk.hk.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HK交通情況快拍圖像 (macOS)";
+			};
+			name = Debug;
+		};
+		79EE28092830A77F005E4007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.crazyapps.hk.hk.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HK交通情況快拍圖像 (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79EE27CC2830A77D005E4007 /* Build configuration list for PBXProject "HK交通情況快拍圖像" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EE27FC2830A77F005E4007 /* Debug */,
+				79EE27FD2830A77F005E4007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EE27FE2830A77F005E4007 /* Build configuration list for PBXNativeTarget "HK交通情況快拍圖像 (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EE27FF2830A77F005E4007 /* Debug */,
+				79EE28002830A77F005E4007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EE28042830A77F005E4007 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EE28052830A77F005E4007 /* Debug */,
+				79EE28062830A77F005E4007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79EE28072830A77F005E4007 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EE28082830A77F005E4007 /* Debug */,
+				79EE28092830A77F005E4007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79402282283AA6AC00E13E95 /* XCRemoteSwiftPackageReference "SwiftWebUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftWebUI/SwiftWebUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		796332BD28423FCC006EF360 /* XCRemoteSwiftPackageReference "SwiftWebUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftWebUI/SwiftWebUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+		796332E5284246A8006EF360 /* XCRemoteSwiftPackageReference "SwiftWeb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Apodini/SwiftWeb";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.8;
+			};
+		};
+		79EE280E2830ACBF005E4007 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image#usage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		796332E6284246A8006EF360 /* SwiftWeb */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 796332E5284246A8006EF360 /* XCRemoteSwiftPackageReference "SwiftWeb" */;
+			productName = SwiftWeb;
+		};
+		796332E8284246A8006EF360 /* SwiftWebScript */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 796332E5284246A8006EF360 /* XCRemoteSwiftPackageReference "SwiftWeb" */;
+			productName = SwiftWebScript;
+		};
+		79EE280F2830ACBF005E4007 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79EE280E2830ACBF005E4007 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 79EE27C92830A77D005E4007 /* Project object */;
+}

@@ -1,0 +1,34 @@
+import ABSC
+
+sysinfo: (title: "交通情況快拍圖像"), (style: button.all.center), (style: text.all.center)
+
+ABSCMain() {
+
+    let Place = "九龍", "香港島", "荃灣", "屯門及天水圍", "大埔，北區及元朗", "沙田及馬鞍山", "大嶼山"
+  
+    MainPage() {
+        Text("交通情況快拍圖像")
+            .font(.title)
+        Button(Place) {
+            run: {
+                 PlacePage().Page
+            }
+        }
+        Button("關於") {
+            run: {
+                 About().Page
+            }
+        }
+    }
+    PlacePage() {
+    var place = "place.json"
+        List() {
+            Button(name.photo.place) {
+            run: {
+                 PhotoView(url.photo.place)
+            }
+
+        }
+    
+    }
+}

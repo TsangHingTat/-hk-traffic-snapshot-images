@@ -1,0 +1,59 @@
+{
+  "pins" : [
+    {
+      "identity" : "runtime",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wickwirew/Runtime.git",
+      "state" : {
+        "revision" : "dad03135d7701a4e7b3a4051e75d6b37bd8e178e",
+        "version" : "2.2.4"
+      }
+    },
+    {
+      "identity" : "semanticui-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftWebResources/SemanticUI-Swift.git",
+      "state" : {
+        "revision" : "7397d062aeeb5ecce64389fecaca3b1e0fc9cacf",
+        "version" : "2.4.2"
+      }
+    },
+    {
+      "identity" : "swift-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio.git",
+      "state" : {
+        "revision" : "124119f0bb12384cef35aa041d7c3a686108722d",
+        "version" : "2.40.0"
+      }
+    },
+    {
+      "identity" : "swiftweb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Apodini/SwiftWeb",
+      "state" : {
+        "revision" : "45bc6aa173b967cbc8730e90f2de7efee527064d",
+        "version" : "0.0.8"
+      }
+    },
+    {
+      "identity" : "swiftwebui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftWebUI/SwiftWebUI",
+      "state" : {
+        "revision" : "18cbd100d360432cbc38142f8571176776953450",
+        "version" : "0.3.0"
+      }
+    },
+    {
+      "identity" : "url-image#usage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dmytro-anokhin/url-image#usage",
+      "state" : {
+        "branch" : "main",
+        "revision" : "20abda498bf8fe78631b1057b77078147598962b"
+      }
+    }
+  ],
+  "version" : 2
+}
